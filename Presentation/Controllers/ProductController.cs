@@ -17,5 +17,5 @@ public class ProductController : ControllerBase
 
     [HttpPost]
     public async Task CreateProductAsync()
-    =>
+    => _productService
 }
